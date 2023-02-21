@@ -6,7 +6,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>日替わり一人称</title>
         <meta name="google-site-verification" content="JvPUEVWqeeWNVmad3ze-5OvUBGOvc58_r8M9EIuqrBE" />
-        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300&display=swap" rel="stylesheet">
     </head>
 
     <body>
@@ -42,7 +41,7 @@
                     body{
                         font-size: 80px;
                         background-image: url(
-                           ./acc.jpeg
+                            https://images.pexels.com/photos/9851262/pexels-photo-9851262.jpeg?auto=compress&cs=tinysrgb&w=600
                         )
                     }
                     #a,#b,#zzz{
@@ -51,7 +50,7 @@
                     }
                     
                     html{                                   
-                        color: black;
+                        color: #000000;
                     }
                 </style>
         <!--CSS-->
@@ -59,7 +58,7 @@
                 <script>
                     // 日にちと#aの要素を取得    
                     const now = new Date();
-                    const nownow = (now.getDate()) 
+                    const nownow = (now.getDate()); 
                     const docc = document.querySelector('#a');
                     //日にちごとに一人称を表示
                     switch (nownow) {
@@ -103,11 +102,11 @@
                         break;
                         case 20:docc.textContent = 'わし';
                         break;
-                        case 21:docc.textContent = '鈴木';
+                        case 21:docc.textContent = '゛';
                         break;
-                        case 22:docc.textContent = 'わっちゃ';
+                        case 22:docc.textContent = 'ひろゆき';
                         break;
-                        case 23:docc.textContent = 'ひろゆき';
+                        case 23:docc.textContent = '鈴木';
                         break;
                         case 24:docc.textContent = '秀幸';
                         break;
@@ -115,7 +114,7 @@
                         break;
                         case 26:docc.textContent = 'わらわ';
                         break;
-                        case 27:docc.textContent = '自分の名前四文字';
+                        case 27:docc.textContent = 'あたくし';
                         break;
                         case 28:docc.textContent = 'おれっち';
                         break;
@@ -123,10 +122,10 @@
                         break;
                         case 30:docc.textContent = '吾輩';
                         break;
-                        case 31:docc.textContent = 'おら';
+                        case 31:docc.textContent = '汝';
                         break;
                         default: docc.textContent = 'error';
-                    }
+                    };
 
                     //rundom
                     let length = 30;
@@ -143,7 +142,7 @@
                             break;
                             case 3:ZZZ.textContent = '〜これが私の意見だけど';
                             break;
-                            case 4:ZZZ.textContent = '〜でございます。ご主人さま';
+                            case 4:ZZZ.textContent = 'ちょる';
                             break;
                             case 5:ZZZ.textContent = 'すっぞ';
                             break;
@@ -204,8 +203,8 @@
                     };   
 
                     function aaa(){
-                        ZZZ.textContent = '???'
-                    }
+                        ZZZ.textContent = '???';
+                    };
                     aaa();
                     //日付変更時にリロード
                     function doReload() {
@@ -214,7 +213,7 @@
                     const nownownow = now.getHours();
                     const nownownownow = now.getMinutes();
                     if (nownownow >= 23 && nownownownow <45) {
-                        gobi()
+                        gobi();
                     }
                     else{
                         setTimeout(doReload,600000);
@@ -262,11 +261,11 @@
                         break;
                         case 20:dddoooccc.textContent = 'わし';
                         break;
-                        case 21:dddoooccc.textContent = '鈴木';
+                        case 21:dddoooccc.textContent = '゛';
                         break;
-                        case 22:dddoooccc.textContent = 'わっちゃ';
+                        case 22:dddoooccc.textContent = 'ひろゆき';
                         break;
-                        case 23:dddoooccc.textContent = 'ひろゆき';
+                        case 23:dddoooccc.textContent = '鈴木';
                         break;
                         case 24:dddoooccc.textContent = '秀幸';
                         break;
@@ -282,7 +281,7 @@
                         break;
                         case 30:dddoooccc.textContent = '吾輩';
                         break;
-                        case 31:dddoooccc.textContent = 'おら';
+                        case 31:dddoooccc.textContent = '汝';
                         break;
                         case 32:dddoooccc.textContent = '僕';
                         break;
